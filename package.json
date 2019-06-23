@@ -1,0 +1,10 @@
+{
+  "name": "@nebulario/tracker-tool",
+  "version": "0.0.0",
+  "main": "start.sh",
+  "license": "MIT",
+  "dependencies": {
+    "@nebulario/tracker-graph": "1.70.0-master",
+    "@nebulario/tracker-server": "1.70.0-master"
+  }
+}
