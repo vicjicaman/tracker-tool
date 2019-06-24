@@ -4,7 +4,7 @@
   "main": "start.sh",
   "license": "MIT",
   "dependencies": {
-    "@nebulario/tracker-graph": "1.70.0-master",
+    "@nebulario/tracker-graph": "1.70.1-master",
     "@nebulario/tracker-server": "1.70.0-master"
   }
 }
