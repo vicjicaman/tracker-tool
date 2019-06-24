@@ -89,6 +89,26 @@
     popper.js "^1.12.9"
     reactstrap "^6.4.0"
 
+"@nebulario/tracker-events@1.70.0-master":
+  version "1.70.0-master"
+  resolved "https://registry.yarnpkg.com/@nebulario/tracker-events/-/tracker-events-1.70.0-master.tgz#b095d4f1cff14d8155d3bccef71926c6ec6c2a19"
+  integrity sha512-Ln/5q0CVs2hMZrIizs9hUpPQ91ODzagtT74GEydvzjE+3ygDT9fFfHycBN0p9/mNT2wcf+SduFOELoHRrZO8vQ==
+  dependencies:
+    "@nebulario/tracker-process" "1.70.0-master"
+    babel-runtime "^6.26.0"
+    lodash "^4.17.4"
+    uuid "^3.3.2"
+
+"@nebulario/tracker-git@1.70.0-master":
+  version "1.70.0-master"
+  resolved "https://registry.yarnpkg.com/@nebulario/tracker-git/-/tracker-git-1.70.0-master.tgz#f044e84b6a090bd08c9563355f4f0fdee9d5621b"
+  integrity sha512-MqoXAjKJhPrjdGdq7mEZeiNg6xT1+0IPnbeKldkx5CTTVfYo5U23+XCdGWYiKvbi9+xuDhGHaZH23UHysNDwMA==
+  dependencies:
+    "@nebulario/tracker-process" "1.70.0-master"
+    babel-runtime "^6.26.0"
+    lodash "^4.17.4"
+    uuid "^3.3.2"
+
 "@nebulario/tracker-graph@1.70.0-graph-setup-prod":
   version "1.70.0-graph-setup-prod"
   resolved "https://registry.yarnpkg.com/@nebulario/tracker-graph/-/tracker-graph-1.70.0-graph-setup-prod.tgz#01ee444c04a65f8cc48c32d3324bb443b2a83402"
@@ -107,13 +127,18 @@
     lodash "^4.17.11"
     semver "^5.6.0"
 
-"@nebulario/tracker-graph@1.70.0-master":
-  version "1.70.0-master"
-  resolved "https://registry.yarnpkg.com/@nebulario/tracker-graph/-/tracker-graph-1.70.0-master.tgz#f3fd84deee83e0a84cebf3bbd711b7eff4c23101"
-  integrity sha512-o16OcL2Usc6TlTXXw9waGgKT8XfzSgNlDfo1qSRVaOWvZfznLBaCZfXr1pGvR1WSUAHDpPDmWonUkQc/TOG7mw==
+"@nebulario/tracker-graph@1.70.1-master":
+  version "1.70.1-master"
+  resolved "https://registry.yarnpkg.com/@nebulario/tracker-graph/-/tracker-graph-1.70.1-master.tgz#e3feed706d36a0282ac0e3d3594dfc6021357d71"
+  integrity sha512-toh4nEo0Ns29xPWR4iVW/Oh0s6mKVpdQs1Q8Z5/9dBQomNyMxHOmhE3J6zTxdkGqqQSAVroDy3xTX08MvJ32KA==
   dependencies:
+    "@nebulario/tracker-events" "1.70.0-master"
+    "@nebulario/tracker-git" "1.70.0-master"
     "@nebulario/tracker-node" "1.70.0-master"
+    "@nebulario/tracker-operation" "1.70.0-master"
+    "@nebulario/tracker-ping" "1.70.0-master"
     "@nebulario/tracker-process" "1.70.0-master"
+    "@nebulario/tracker-stream" "1.70.0-master"
     axios "^0.18.0"
     cors "^2.8.4"
     dotenv "^6.2.0"
@@ -151,6 +176,27 @@
   integrity sha512-YHDlxJXW6rbN0X8XcuxvVXM/KBXl38DREUq2aJT4If+7ptmS1B7CX7mqqqwLK448iIFyXxwwcSyej8YWgKRY8g==
   dependencies:
     react-toastify "^4.1.0"
+
+"@nebulario/tracker-operation@1.70.0-master":
+  version "1.70.0-master"
+  resolved "https://registry.yarnpkg.com/@nebulario/tracker-operation/-/tracker-operation-1.70.0-master.tgz#cda47d33dfc60682c7e791c0f990efca92906840"
+  integrity sha512-8N/TRWZTAxNoa9tH/haPg7GON1wOvxf7HhRryO2sO6opyyeHEf74NIqfmwt2tB2x3lrQhcWvaO9R55LVm6HfNA==
+  dependencies:
+    "@nebulario/tracker-events" "1.70.0-master"
+    "@nebulario/tracker-process" "1.70.0-master"
+    babel-runtime "^6.26.0"
+    lodash "^4.17.4"
+    uuid "^3.3.2"
+
+"@nebulario/tracker-ping@1.70.0-master":
+  version "1.70.0-master"
+  resolved "https://registry.yarnpkg.com/@nebulario/tracker-ping/-/tracker-ping-1.70.0-master.tgz#906bc0d6548064bbb7db786d979dd895d47d028b"
+  integrity sha512-MrQypegyXUmVWH/kNMSKT3JPeDD2gm5z//zgCclLJHq1kRsl2vNkghMa+yTrccpzPgzjeIKNroWUDFNU6qdk/Q==
+  dependencies:
+    "@nebulario/tracker-process" "1.70.0-master"
+    babel-runtime "^6.26.0"
+    lodash "^4.17.4"
+    uuid "^3.3.2"
 
 "@nebulario/tracker-process@1.70.0-master":
   version "1.70.0-master"
@@ -199,6 +245,15 @@
     lodash "^4.17.11"
     recompose "^0.30.0"
     redux-actions "^2.6.4"
+
+"@nebulario/tracker-stream@1.70.0-master":
+  version "1.70.0-master"
+  resolved "https://registry.yarnpkg.com/@nebulario/tracker-stream/-/tracker-stream-1.70.0-master.tgz#ceb69cdc82f74e34844413929d7530d31a1517dd"
+  integrity sha512-sfOQMucGbVqS39ksLQlzjBD7Shldpi6shHR5RUiZBBMsg+peQ8rTskmcBFyDAHey2hZHg0miD09ufzHHU7fM+A==
+  dependencies:
+    babel-runtime "^6.26.0"
+    lodash "^4.17.4"
+    uuid "^3.3.2"
 
 "@nebulario/tracker-web@1.70.0-master":
   version "1.70.0-master"
