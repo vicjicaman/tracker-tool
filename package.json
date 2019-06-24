@@ -1,6 +1,6 @@
 {
   "name": "@nebulario/tracker-tool",
-  "version": "1.70.0-bundle-tool-prod",
+  "version": "1.70.0-master",
   "main": "start.sh",
   "license": "MIT",
   "dependencies": {
