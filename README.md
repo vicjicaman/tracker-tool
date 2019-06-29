@@ -1,6 +1,6 @@
 # Tracker-tool
 
-This is a simple issue tracker that used git as a data store.
+This is a simple issue tracker that used git as a data store, you can create issue, labels and comments.
 
 # Install and start
 
@@ -26,8 +26,6 @@ There are two ways to start the tracker,
   ```
   docker-compose up
   ```
-
-
 
 # Screenshots
 
@@ -90,6 +88,11 @@ Common web DLL repositories (Meant to be shared across multiple UI services)
 - [tracker-dll-redux](https://github.com/vicjicaman/tracker-dll-redux) - Redux related packages
 - [tracker-dll-vendor](https://github.com/vicjicaman/tracker-dll-vendor) - Bootstrap, jQuery and vendor related packages
 - [tracker-dll-utils](https://github.com/vicjicaman/tracker-dll-utils) - Misc utilities related packages
+
+# Limitations
+
+- Only works with ssh protocol
+- Tested only in ubuntu
 
 # License
 
