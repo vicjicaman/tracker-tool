@@ -27,7 +27,11 @@ There are two ways to start the tracker,
   docker-compose up
   ```
 
+
+
 # Screenshots
+
+The next screens are from the tool working on the repository to store the tracker issues: [tracker-issues](https://github.com/vicjicaman/tracker-issues)
 
 - List issues and the current state of the repository branch
 <p align="center">
