@@ -91,4 +91,6 @@ Common web DLL repositories (Meant to be shared across multiple UI services)
 - [tracker-dll-vendor](https://github.com/vicjicaman/tracker-dll-vendor) - Bootstrap, jQuery and vendor related packages
 - [tracker-dll-utils](https://github.com/vicjicaman/tracker-dll-utils) - Misc utilities related packages
 
+# License
 
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
