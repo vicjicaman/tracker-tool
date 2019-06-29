@@ -31,17 +31,17 @@ There are two ways to start the tracker,
 
 - List issues and the current state of the repository branch
 <p align="center">
-  <img width="150px" src="https://ww.repoflow.com/tracker/issues.png">
+  <img src="https://user-images.githubusercontent.com/36018976/60389726-4f3bcf80-9ac7-11e9-8b1d-58bb75063842.png">
 </p>
 
 - List the recent history of commit changes 
 <p align="center">
-  <img width="150px" src="https://ww.repoflow.com/tracker/history.png">
+  <img  src="https://user-images.githubusercontent.com/36018976/60389725-4f3bcf80-9ac7-11e9-8e67-74f6760e3076.png">
 </p>
 
 - Keep state across page refresh and auto sync for multiple pages and tabs
 <p align="center">
-  <img width="150px" src="https://ww.repoflow.com/tracker/func.gif">
+  <img src="https://user-images.githubusercontent.com/36018976/60389724-4e0aa280-9ac7-11e9-9129-b8e31b455c50.gif">
 </p>
 
 
