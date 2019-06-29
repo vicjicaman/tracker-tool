@@ -59,8 +59,8 @@ UI related repositories
 - [tracker-web](https://github.com/vicjicaman/tracker-web) - Generate the web assets for the SSR
 - [tracker-common](https://github.com/vicjicaman/tracker-common) - Common React UI code
 - [tracker-lang](https://github.com/vicjicaman/tracker-lang) - Lang provider component
-- [tracker-lang](https://github.com/vicjicaman/tracker-stateful-web) - Render web deliverable and rehydrate state
-- [tracker-lang](https://github.com/vicjicaman/tracker-stateful-server) - Render the server side of the app
+- [tracker-stateful-web](https://github.com/vicjicaman/tracker-stateful-web) - Render web deliverable and rehydrate state
+- [tracker-stateful-server](https://github.com/vicjicaman/tracker-stateful-server) - Render the server side of the app
 - [tracker-layout](https://github.com/vicjicaman/tracker-layout) - Common layout for all the related services
 - [tracker-app-modal](https://github.com/vicjicaman/tracker-app-modal) - Modal component
 - [tracker-app-form](https://github.com/vicjicaman/tracker-app-form) - Form component
