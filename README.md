@@ -73,7 +73,6 @@ UI related repositories
 
 Backend repositories
 
-- [tracker-container-graph](https://github.com/vicjicaman/tracker-container-graph) - GraphQL service container
 - [tracker-operation](https://github.com/vicjicaman/tracker-operation) - Operation
 - [tracker-git](https://github.com/vicjicaman/tracker-git) - Git simple API
 - [tracker-stream](https://github.com/vicjicaman/tracker-stream) - Stream functionality
