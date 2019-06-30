@@ -1,8 +1,10 @@
-# Tracker-tool
+# Git based issue tracker
 
 This is a simple issue tracker that used git as a data store, you can create issue, labels and comments.
 
-# Install and start
+# Install and start 
+
+- You need a GIT repository with SSH access, the tool will create an issues folder inside.
 
 There are two ways to start the tracker, 
 - Installing the node packages and running local services.
