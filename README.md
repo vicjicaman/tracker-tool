@@ -2,6 +2,9 @@
 
 This is a simple issue tracker that used git as a data store, you can create issue, labels and comments.
 
+This is a **demo project** for the [Repoflow tool](http://www.repoflow.com) features to handle multiple repositories, you can see the releases, branches and commits history the interaction of the different repositories for each feature released.
+This why this tool is composed of the listed 27 repositories releasing 24 npm packages, 2 container images and a compose file.
+
 # Install and start 
 
 - You need a GIT repository with SSH access, the tool will create an issues folder inside.
@@ -33,17 +36,18 @@ There are two ways to start the tracker,
 
 The next screens are from the tool working on the repository to store the tracker issues: [tracker-issues](https://github.com/vicjicaman/tracker-issues)
 
-- List issues and the current state of the repository branch
+
+- **List issues and the current state of the repository branch**
 <p align="center">
   <img src="https://user-images.githubusercontent.com/36018976/60389726-4f3bcf80-9ac7-11e9-8b1d-58bb75063842.png">
 </p>
 
-- List the recent history of commit changes 
+- **List the recent history of commit changes**
 <p align="center">
   <img  src="https://user-images.githubusercontent.com/36018976/60389725-4f3bcf80-9ac7-11e9-8e67-74f6760e3076.png">
 </p>
 
-- Keep state across page refresh and auto sync for multiple pages and tabs
+- **Keep state across page refresh and auto sync for multiple pages and tabs**
 <p align="center">
   <img src="https://user-images.githubusercontent.com/36018976/60389724-4e0aa280-9ac7-11e9-9129-b8e31b455c50.gif">
 </p>
@@ -52,6 +56,9 @@ The next screens are from the tool working on the repository to store the tracke
 # Code repositories
 
 All the tracker repositories  are MIT and open source.
+
+This is a **demo project** for the [Repoflow tool](http://www.repoflow.com) features to handle multiple repositories, you can see the releases, branches and commits history the interaction of the different repositories for each feature released.
+This why this tool is composed of the listed 27 repositories releasing 24 npm packages, 2 container images and a compose file.
 
 - [tracker-compose](https://github.com/vicjicaman/tracker-compose) - Compose file to startup the containers
 - [tracker-container-graph](https://github.com/vicjicaman/tracker-container-graph) - GraphQL service container
