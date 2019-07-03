@@ -2,7 +2,7 @@
 
 This is a simple issue tracker that used git as a data store, you can create issue, labels and comments.
 
-This is a **demo project** for the [Repoflow tool](http://www.repoflow.com) features to handle multiple repositories, you can see the releases, branches and commits history the interaction of the different repositories for each feature released.
+This is a **demo project** for the [Repoflow tool](http://www.repoflow.com) features to handle multiple repositories, you can see the releases, branches, commits history and interaction of the different repositories for each feature released.
 This why this tool is composed of the listed 27 repositories releasing 24 npm packages, 2 container images and a compose file.
 
 # Install and start 
@@ -57,7 +57,7 @@ The next screens are from the tool working on the repository to store the tracke
 
 All the tracker repositories  are MIT and open source.
 
-This is a **demo project** for the [Repoflow tool](http://www.repoflow.com) features to handle multiple repositories, you can see the releases, branches and commits history the interaction of the different repositories for each feature released.
+This is a **demo project** for the [Repoflow tool](http://www.repoflow.com) features to handle multiple repositories, you can see the releases, branches, commits history and interaction of the different repositories for each feature released.
 This why this tool is composed of the listed 27 repositories releasing 24 npm packages, 2 container images and a compose file.
 
 - [tracker-compose](https://github.com/vicjicaman/tracker-compose) - Compose file to startup the containers
