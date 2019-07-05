@@ -2,8 +2,10 @@
 
 This is a simple issue tracker that used git as a data store, you can create issue, labels and comments.
 
-This is a **demo project** for the [Repoflow tool](http://www.repoflow.com) features to handle multiple repositories, you can see the releases, branches, commits history and interaction of the different repositories for each feature released.
+This is an example/demo project on how to work with multiple repositories with my project [Repoflow](http://www.repoflow.com) features to handle multiple repositories, you can see the releases, branches, commits history and interaction of the different repositories for each feature released.
+
 This why this tool is composed of the listed 27 repositories releasing 24 npm packages, 2 container images and a compose file.
+
 
 # Install and start 
 
